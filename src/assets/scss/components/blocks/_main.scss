@@ -1,0 +1,51 @@
+// main {}
+
+.main {
+    display: grid;
+    border: 1px solid black;
+    grid-area: main;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+
+    
+
+    // &__smileys {}
+
+    .smileys {
+
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        gap: 10px;
+
+        &__header {
+            text-align: center;
+        }
+
+        &__smile {
+            display: grid;
+        justify-content: center;
+        gap: 10px;
+        
+        }
+
+        &__name {
+            text-align: center;
+            font-size: 50px;    
+        }
+
+        // &__btn {}
+
+        &__votes {
+            text-align: center;
+        }
+
+        // &__showResult{}
+
+        // &__result{}
+    }
+
+    // &__smile {}
+}
